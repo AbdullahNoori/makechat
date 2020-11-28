@@ -46,3 +46,4 @@ io.on("connection", (socket) => {
   // This file will be read on new socket connections
   require('./sockets/chat.js')(io, socket);
 })
+
