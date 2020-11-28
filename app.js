@@ -16,3 +16,6 @@ app.get('/', (req, res) => {
 server.listen('3000', () => {
   console.log('Server listening on Port 3000');
 })
+
+//Establish your public folder
+app.use('/public', express.static('public'))
